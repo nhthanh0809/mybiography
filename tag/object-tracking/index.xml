@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object Tracking | Nguyen Huy Thanh</title>
+    <link>https://nhthanh0809.github.io/mybiography/tag/object-tracking/</link>
+      <atom:link href="https://nhthanh0809.github.io/mybiography/tag/object-tracking/index.xml" rel="self" type="application/rss+xml" />
+    <description>Object Tracking</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2023 | Nguyen Huy Thanh</copyright>
+    <image>
+      <url>https://nhthanh0809.github.io/mybiography/images/icon_huba8e7a8e3138b570f03a1a1bd06356a6_10104_512x512_fill_lanczos_center_3.png</url>
+      <title>Object Tracking</title>
+      <link>https://nhthanh0809.github.io/mybiography/tag/object-tracking/</link>
+    </image>
+    
+    <item>
+      <title>Video object tracking and segmentation for digital camera</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/video_object_tracking_and_segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/video_object_tracking_and_segmentation/</guid>
+      <description>&lt;p&gt;In this project, we focus on optimizing &lt;strong&gt;video object tracking and segmentation&lt;/strong&gt; model for running on digital still camera.
+We used the Siamese network based model for tracking object on input video. The model was trained on larger video dataset such as Youtube-VOS, ImageNet-VID 2015, etc. &lt;br&gt;
+For optimizing the model, firstly we change backbone of the model from ResNet50 to MobileNetV1. We then re-trained and re-evaluated the modified model on above datasets.
+The evaluation show that while accuracy of the new model slightly decrease but performance significantly increase in comparison with the original one. &lt;br&gt;
+Next step, we implemented quantization and pruning methods for compressing the model weight from Float 16 to Int 8, in order to it can run on edge device like digital camera.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

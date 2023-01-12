@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tensorflow | Nguyen Huy Thanh</title>
+    <link>https://nhthanh0809.github.io/mybiography/tag/tensorflow/</link>
+      <atom:link href="https://nhthanh0809.github.io/mybiography/tag/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tensorflow</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2023 | Nguyen Huy Thanh</copyright><lastBuildDate>Thu, 30 Jul 2020 12:38:00 +0700</lastBuildDate>
+    <image>
+      <url>https://nhthanh0809.github.io/mybiography/images/icon_huba8e7a8e3138b570f03a1a1bd06356a6_10104_512x512_fill_lanczos_center_3.png</url>
+      <title>Tensorflow</title>
+      <link>https://nhthanh0809.github.io/mybiography/tag/tensorflow/</link>
+    </image>
+    
+    <item>
+      <title>Automated 3D BIM modeling for Digital Twin development</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/3d_bim_auto_modeling/</link>
+      <pubDate>Thu, 30 Jul 2020 12:38:00 +0700</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/3d_bim_auto_modeling/</guid>
+      <description>&lt;p&gt;This project focuses on &lt;strong&gt;fully automatically 3D BIM modeling&lt;/strong&gt; using 3D point cloud data.
+In this project, we firstly collected 3D point cloud data of small room by using &lt;strong&gt;iPhone 12 Pro&lt;/strong&gt; (integrated LiDAR sensor). The collected data then will be treated as input data of
+3D point cloud recognition model. This deep learning model was trained on both public dataset (ScanNet V2) and our private dataset. &lt;br&gt;
+For constructing 3D BIM model from predicted results, we developed an application based on REVIT APIs (C#) that can automatically construct 3D BIM model of room inside objects such as wall,
+floor, ceiling, tables, chairs, cabinets, etc. These 3D BIM models of the room can be integrated with our Digital Twin System or with IoT sensor database for simulation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Cephalometric landmark detection</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/ceph_landmark_det/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/ceph_landmark_det/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Landmark identification&lt;/strong&gt; is crucial in quantifying cephalometric analysis such as Steiner, Bjork, Ricketts, Kim, Nagasaki, etc. For applying these analysis to cephalometric image, dentist or orthodontist need to annotate
+some group of landmarks that corresponding to specified analysis. Manual annotation of landmarks is a tedious, laborious task and prone to human errors.
+Therefore, it&amp;rsquo;s necessary that they need an efficient automated application for landmark identification. &lt;br&gt;
+In this project, we developed an online efficient AI driven tools for automatically detecting landmark on Cephalometry image.
+The core part of these tools is our developed deep learning model with backbone &lt;em&gt;&lt;strong&gt;DenseNet121&lt;/strong&gt;&lt;/em&gt;. This model was trained on both public dataset of Cephalometric image 
+&lt;a href=&#34;https://biomedicalimaging.org/2015/program/isbi-challenges/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISBI 2015&lt;/a&gt; and private dataset. &lt;br&gt;
+These tools currently has been integrated with other advanced technology tools in 
+&lt;a href=&#34;https://www.viceph.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Viceph&lt;/a&gt; - an online AI driven application for orthodontist.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Room layout recognition</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/room_layout_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/room_layout_recognition/</guid>
+      <description>&lt;p&gt;In this project, we focus on building-up an &lt;strong&gt;Instance segmentation&lt;/strong&gt; model for recognizing drawing room layout data.
+We trained and tested our model (Unet architecture) on both public dataset (Cubicasa, R3D) and own dataset (more than 1000 images of drawing layout)
+To ensuring generalization of the trained model, we added CVF-FP dataset (public) to test set for evaluation. &lt;br&gt;
+After AI model development, we deployed the model on Torchserve - a Pytorch model serving framework, and integrated to Kubenetes system. The AI model
+will be used for classifying room type, providing essential information for construction site works.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Synthesizing data by using 3D object models</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/synthesizing_360degree_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/synthesizing_360degree_data/</guid>
+      <description>&lt;p&gt;In this project, we focus on synthesizing 360 panoramic image data from 3D models without real image.
+We first collected 3D models of in-house objects such as table, curtain, chairs, air-conditioner, TV, etc from 
+&lt;a href=&#34;https://3dwarehouse.sketchup.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online storage&lt;/a&gt;.
+We then rendered these 3D model on a license software for visualizing 3D models.
+We chose this software because it has a function that allowing rendering objects under virtual 360 degrees camera. Using this software, we generated virtual multi-view video and images of collected 3D objects.
+Next, the videos and images will be processed by own developed tool allowing segment objects from background images.
+This tool synthesized 360 panoramic image data by putting segmented object images on different background. &lt;br&gt;
+Finally, we trained some well-known object detectors (YoloV3, YoloV5, EfficientDet, Mask-RCNN, etc.) on the synthesized data then evaluated on 360 degree public dataset namely 
+&lt;a href=&#34;https://openaccess.thecvf.com/content_WACV_2020/html/Chou_360-Indoor_Towards_Learning_Real-World_Objects_in_360deg_Indoor_Equirectangular_Images_WACV_2020_paper.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;360-Indoor&lt;/a&gt;
+The evaluation results show that this method is very efficient, low-cost and promising approach for synthesizing 360 image dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Video object tracking and segmentation for digital camera</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/video_object_tracking_and_segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/video_object_tracking_and_segmentation/</guid>
+      <description>&lt;p&gt;In this project, we focus on optimizing &lt;strong&gt;video object tracking and segmentation&lt;/strong&gt; model for running on digital still camera.
+We used the Siamese network based model for tracking object on input video. The model was trained on larger video dataset such as Youtube-VOS, ImageNet-VID 2015, etc. &lt;br&gt;
+For optimizing the model, firstly we change backbone of the model from ResNet50 to MobileNetV1. We then re-trained and re-evaluated the modified model on above datasets.
+The evaluation show that while accuracy of the new model slightly decrease but performance significantly increase in comparison with the original one. &lt;br&gt;
+Next step, we implemented quantization and pruning methods for compressing the model weight from Float 16 to Int 8, in order to it can run on edge device like digital camera.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

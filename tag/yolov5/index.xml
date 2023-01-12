@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YoloV5 | Nguyen Huy Thanh</title>
+    <link>https://nhthanh0809.github.io/mybiography/tag/yolov5/</link>
+      <atom:link href="https://nhthanh0809.github.io/mybiography/tag/yolov5/index.xml" rel="self" type="application/rss+xml" />
+    <description>YoloV5</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2023 | Nguyen Huy Thanh</copyright>
+    <image>
+      <url>https://nhthanh0809.github.io/mybiography/images/icon_huba8e7a8e3138b570f03a1a1bd06356a6_10104_512x512_fill_lanczos_center_3.png</url>
+      <title>YoloV5</title>
+      <link>https://nhthanh0809.github.io/mybiography/tag/yolov5/</link>
+    </image>
+    
+    <item>
+      <title>Synthesizing data by using 3D object models</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/synthesizing_360degree_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/synthesizing_360degree_data/</guid>
+      <description>&lt;p&gt;In this project, we focus on synthesizing 360 panoramic image data from 3D models without real image.
+We first collected 3D models of in-house objects such as table, curtain, chairs, air-conditioner, TV, etc from 
+&lt;a href=&#34;https://3dwarehouse.sketchup.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online storage&lt;/a&gt;.
+We then rendered these 3D model on a license software for visualizing 3D models.
+We chose this software because it has a function that allowing rendering objects under virtual 360 degrees camera. Using this software, we generated virtual multi-view video and images of collected 3D objects.
+Next, the videos and images will be processed by own developed tool allowing segment objects from background images.
+This tool synthesized 360 panoramic image data by putting segmented object images on different background. &lt;br&gt;
+Finally, we trained some well-known object detectors (YoloV3, YoloV5, EfficientDet, Mask-RCNN, etc.) on the synthesized data then evaluated on 360 degree public dataset namely 
+&lt;a href=&#34;https://openaccess.thecvf.com/content_WACV_2020/html/Chou_360-Indoor_Towards_Learning_Real-World_Objects_in_360deg_Indoor_Equirectangular_Images_WACV_2020_paper.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;360-Indoor&lt;/a&gt;
+The evaluation results show that this method is very efficient, low-cost and promising approach for synthesizing 360 image dataset.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Action recognition | Nguyen Huy Thanh</title>
+    <link>https://nhthanh0809.github.io/mybiography/tag/action-recognition/</link>
+      <atom:link href="https://nhthanh0809.github.io/mybiography/tag/action-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <description>Action recognition</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2023 | Nguyen Huy Thanh</copyright>
+    <image>
+      <url>https://nhthanh0809.github.io/mybiography/images/icon_huba8e7a8e3138b570f03a1a1bd06356a6_10104_512x512_fill_lanczos_center_3.png</url>
+      <title>Action recognition</title>
+      <link>https://nhthanh0809.github.io/mybiography/tag/action-recognition/</link>
+    </image>
+    
+    <item>
+      <title>xAI for video action recognition</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/xai_for_video_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/xai_for_video_recognition/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Researching some &lt;span class=&#34;markup-quote&#34;&gt;(xAI methods)&lt;/span&gt; for time series data. Eg: video action recognition.&lt;/li&gt;
+&lt;li&gt;Implementing &lt;strong&gt;GradCAM&lt;/strong&gt;, &lt;strong&gt;Contrastive Layer-wise Relevance Propagation (CLRP)&lt;/strong&gt;, &lt;strong&gt;Deep Taylor Decomposition&lt;/strong&gt; algorithms for visualizing &lt;strong&gt;heat map&lt;/strong&gt; (target feature map) that pretrained deep learning model focused on.&lt;/li&gt;
+&lt;li&gt;Implementing some proposed xAI related approaches that can improve accuracy of the pretrained model.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud | Nguyen Huy Thanh</title>
+    <link>https://nhthanh0809.github.io/mybiography/tag/cloud/</link>
+      <atom:link href="https://nhthanh0809.github.io/mybiography/tag/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cloud</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2023 | Nguyen Huy Thanh</copyright>
+    <image>
+      <url>https://nhthanh0809.github.io/mybiography/images/icon_huba8e7a8e3138b570f03a1a1bd06356a6_10104_512x512_fill_lanczos_center_3.png</url>
+      <title>Cloud</title>
+      <link>https://nhthanh0809.github.io/mybiography/tag/cloud/</link>
+    </image>
+    
+    <item>
+      <title>Room layout recognition</title>
+      <link>https://nhthanh0809.github.io/mybiography/project/room_layout_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nhthanh0809.github.io/mybiography/project/room_layout_recognition/</guid>
+      <description>&lt;p&gt;In this project, we focus on building-up an &lt;strong&gt;Instance segmentation&lt;/strong&gt; model for recognizing drawing room layout data.
+We trained and tested our model (Unet architecture) on both public dataset (Cubicasa, R3D) and own dataset (more than 1000 images of drawing layout)
+To ensuring generalization of the trained model, we added CVF-FP dataset (public) to test set for evaluation. &lt;br&gt;
+After AI model development, we deployed the model on Torchserve - a Pytorch model serving framework, and integrated to Kubenetes system. The AI model
+will be used for classifying room type, providing essential information for construction site works.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
